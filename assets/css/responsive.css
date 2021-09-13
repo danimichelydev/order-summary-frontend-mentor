@@ -1,0 +1,44 @@
+@media (max-width: 550px) {
+    main {
+        background-image: url(../images/pattern-background-mobile.svg);
+    }
+    .order-wrapper {
+        width: 330px;
+        height: 570px;
+    }
+    .banner img{
+        width: 330px;
+    }
+    .order-content {
+        width: 270px;
+        height: 350px;
+        margin-top: 30px;        
+    }
+    .content-play {
+        margin-top: 20px;
+    }
+    .content-text h1 {
+        font-size: 1.3rem;
+    }
+    .content-text p {
+        font-size: 1rem;
+    }
+    .content-play {
+        width: 280px;
+        height: 80px;
+    }
+    .content-play-plan {
+        margin-right: 20px;
+    }
+    .content-play img {
+        margin-left: 0px;
+    }
+    input {
+        margin-top: 20px;
+    }
+    .cancel-order {
+        margin-top: 20px;
+    }
+
+
+}

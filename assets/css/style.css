@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    transition: 0.1s ease-in;
+}
+
+main {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-wrapper {
+    width: 450px;
+    height: 700px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.banner img{
+    border-radius: 15px 15px 0px 0px;
+}
+.order-content {
+    width: 350px;
+    height: 380px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-text {
+    text-align: center;
+}
+.content-text h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.content-text p {
+    color:hsl(226, 14%, 57%);
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 25px;
+}
+.content-play {
+    width: 350px;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+}
+.content-play-plan {
+    margin-right: 80px;
+}
+.content-play-plan h2 {
+    color: hsl(223, 47%, 23%);
+    font-size: 1rem;
+    font-weight: 900;
+}
+.content-play-plan p {
+    color:hsl(226, 14%, 57%);
+    margin-top: 5px;
+}
+
+.content-play img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.content-play a {
+    color:  hsl(245, 75%, 52%);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.content-play a:hover {
+    text-decoration: none;
+    color: hsl(245, 83%, 68%);
+}
+input {
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    height: 50px;
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 15px;
+    box-shadow: 0px 20px 25px rgba(172, 169, 237, 0.8);
+}
+input:hover{
+    background-color: hsl(245, 83%, 68%);
+}
+.cancel-order {
+    color: hsl(226, 14%, 57%);
+    font-weight: 700;
+    text-decoration: none;
+}
+.cancel-order:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
